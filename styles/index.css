@@ -1,0 +1,184 @@
+/* ----------------------------- 공통 영역 */
+header, main, footer {width:100%;}
+main .section {}
+main .section .title {
+    color:#111;
+    margin-top: 163px; text-align:center;
+}
+main .section .title h2 {
+    font-size:2.375rem; font-weight: 700;
+    margin-bottom: 30px;
+}
+main .section .title h2 img {margin-right: 10px;}
+main .section .title a {
+    font-size:1.375rem; letter-spacing:-.2px;
+    display:flex; flex-flow:row wrap;
+    justify-content: center; margin-bottom:100px;
+}
+main .section .title a img {margin-left: 10px;}
+/* ----------------------------- 헤더 영역 별도 적용 */
+
+/* ----------------------------- main 영역 */
+main {width:100%;}
+main .main_banner {
+    background:url(../images/banner_1.jpg) center no-repeat;
+    background-size:cover; height:100vh; position: relative;
+    padding: 0 60px; width: 100vw;
+}
+main .main_banner .banner_area {width:100%;}
+main .main_banner .banner_area .banner_cont {
+    position:absolute; left: 154px; bottom:216px;
+}
+main .main_banner .banner_area .banner_cont li {
+    color:#111; letter-spacing:-0.2px;
+}
+main .main_banner .banner_area .banner_cont li h2 {
+    font-size:2.375rem; font-weight:700; margin-bottom: 16px;
+}
+main .main_banner .banner_area .banner_cont li p {
+}
+main .main_banner .banner_area .arrow_btn {
+    position:absolute; top:50vh; left:0;
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between; width:100%;
+}
+main .main_banner .banner_area .arrow_btn a:first-child {margin-left:60px;}
+main .main_banner .banner_area .arrow_btn a:last-child {margin-right:60px;}
+main .main_banner .banner_area .arrow_btn a img {}
+/* 페이지 bar */
+main .main_banner .nav_bar {
+}
+/* ------------------- 페이지 2 */
+main .section2 {
+    background:url(../images/bg_2.jpg)no-repeat center;
+    background-size:cover; height:100vh; margin-bottom: 77px;
+}
+main .section2 p {text-align: center;}
+main .section2 p img {}
+/* ------------------- 페이지 3 */
+main .section3 {padding: 0 60px; margin-bottom: 315px;}
+main .section3 .itm_g {
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between;
+}
+main .section3 .itm_g .itm {text-align: center;}
+main .section3 .itm_g .itm a {}
+main .section3 .itm_g .itm a p {}
+main .section3 .itm_g .itm a p img {}
+main .section3 .itm_g .itm a p:nth-child(2) {margin-bottom: 20px;}
+main .section3 .itm_g .itm a p:last-child {font-size:0.875rem;}
+main .section3 .itm_g .itm a p strong {font-size:1.125rem; font-weight: 700;}
+/* ------------------- 페이지 4 */
+main .section4 {padding-left: 60px;}
+main .section4 .soonjung_cont {
+    display:flex; flex-flow:row wrap;
+    justify-content: space-between;
+}
+main .section4 .soonjung_cont p {}
+main .section4 .soonjung_cont p img {}
+main .section4 .soonjung_cont .itm_g {
+    display: flex; flex-flow:row nowrap;
+    overflow-x:scroll; overflow-y:hidden;
+    width: 1200px;
+}
+main .section4 .soonjung_cont .itm_g .itm:first-of-type {margin:0;}
+main .section4 .soonjung_cont .itm_g .itm {
+    margin-left:20px;
+}
+main .section4 .soonjung_cont .itm_g .itm a {}
+main .section4 .soonjung_cont .itm_g .itm a p {}
+main .section4 .soonjung_cont .itm_g .itm a p img {}
+main .section4 .soonjung_cont .itm_g .itm a p:nth-child(2) {}
+main .section4 .soonjung_cont .itm_g .itm a .price {}
+main .section4 .soonjung_cont .itm_g .itm a .price strong {}
+/* ------------------- 페이지 5 */
+main .section5 {
+    position: relative; padding:0 146px;
+    background:url(../images/bg_5.jpg)no-repeat center;
+    background-size: cover; height:100vh;
+}
+main .section5 .title {padding-top:110px;}
+main .section5 .itm_area {}
+main .section5 .itm_area .itm_g {
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between;
+}
+main .section5 .itm_area .itm_g .itm {
+    background-color:rgba(250, 250, 250, .4);
+    border-radius: 10px; overflow:hidden;
+}
+main .section5 .itm_area .itm_g .itm a:first-child {}
+main .section5 .itm_area .itm_g .itm a:first-child img {}
+main .section5 .itm_area .itm_g .itm p {
+    font-size:0.875rem; color:#777; margin: 20px 0 10px;
+    padding: 0 16px;
+}
+main .section5 .itm_area .itm_g .itm > a:nth-of-type(2) {
+    padding: 0 16px; font-size:1.125rem; 
+    font-weight:700; letter-spacing:-.2px;
+}
+main .section5 .itm_area .itm_g .itm .color_g {
+    padding: 0 16px; margin:10px 0;
+}
+main .section5 .itm_area .itm_g .itm .color_g a {}
+main .section5 .itm_area .itm_g .itm .color_g a img {}
+main .section5 .itm_area .itm_g .itm .price {color:#111; font-size:0.875rem;}
+main .section5 .itm_area .itm_g .itm .price strong {
+    font-size:1.125rem; font-weight: 700; color:#111;
+}
+main .section5 .itm_area .arrow_btn {
+    position:absolute; top:50vh; left:0;
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between; width:100%;
+}
+main .section5 .itm_area .arrow_btn a:first-of-type {margin-left:60px;}
+main .section5 .itm_area .arrow_btn a:last-of-type {margin-right:60px;}
+main .section5 .itm_area .arrow_btn a img {}
+/* ------------------- 페이지 6 */
+main .section6 {
+    background:url(../images/bg_6.jpg)no-repeat;
+    background-size: cover; padding: 200px 160px;
+    display:flex; flex-flow: row wrap;
+    align-items:center; justify-content:space-between;
+}
+main .section6 .link_tiktok {margin-right: 230px;}
+main .section6 .link_tiktok img {}
+main .section6 .section6_right .follow_us {overflow: hidden;}
+main .section6 .section6_right .follow_us h2 {font-size:5rem; font-weight: 300; margin-bottom: 43px;}
+main .section6 .section6_right .follow_us p {
+    font-size:5rem; font-weight: 700; text-align:right;
+}
+main .section6 .section6_right .follow_us .link_sns {
+    float: right; margin: 20px 0 100px 0;
+}
+main .section6 .section6_right .follow_us .link_sns a {}
+main .section6 .section6_right .follow_us .link_sns a img {height:40px;}
+main .section6 .section6_right .follow_us p:last-child {}
+main .section6 .section6_right .follow_us p:last-child img {width: 895px;}
+/* ------------------- 페이지 7 */
+main .section7 {}
+main .section7 .gift_g {
+    padding:0 60px;
+    display:flex; flex-flow: row wrap;
+    align-items:center; justify-content:space-between;
+}
+main .section7 .gift_g a {}
+main .section7 .gift_g a img {}
+/* ------------------- 페이지 8 */
+main .section8 {padding: 0 210px 90px; position: relative;}
+main .section8 .cont_area {}
+main .section8 .cont_area .news {
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between;
+}
+main .section8 .cont_area .news a {}
+main .section8 .cont_area .news a img {}
+main .section8 .cont_area .arrow_btn {
+    position:absolute; top:50%; left:0;
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between; width:100%;
+}
+main .section8 .cont_area .arrow_btn a:first-child {margin-left: 60px;}
+main .section8 .cont_area .arrow_btn a:last-child {margin-right:60px;}
+main .section8 .cont_area .arrow_btn a img {}
+/* footer 공통 적용 별도 작성 */

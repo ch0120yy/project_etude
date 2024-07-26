@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하트팝 블러셔 #핑크샤이 4g - 에뛰드</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/item_view.css">
+    <link rel="stylesheet" href="./styles/header_design.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script/item_view.js" defer></script>
+    <script src="./script/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header id="gnb_area">
+        <h1 id="logo"><a href="#"><img src="./images/logo.png" alt="ETUDE"></a></h1>
+        <nav>
+            <div class="sub_bg"></div>
+            <ul class="gnb">
+                <li>
+                    <a href="#">PRODUCT</a>
+                    <div class="sub_menu">
+                        <ul class="sub_left">
+                            <li><a href="#">전체보기</a></li>
+                            <li><a href="#"><strong>신제품</strong></a></li>
+                        </ul>
+                        <ul class="sub_center">
+                            <li>
+                                <a href="#" class="depth1">아이</a>
+                                <ul class="depth2">
+                                    <li><a href="#">싱글섀도우</a></li>
+                                    <li><a href="#">아이팔레트</a></li>
+                                    <li><a href="#">마스카라</a></li>
+                                    <li><a href="#">아이라이너</a></li>
+                                    <li><a href="#">아이브라우</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">립</a>
+                                <ul class="depth2">
+                                    <li><a href="#">립스틱</a></li>
+                                    <li><a href="#">틴트</a></li>
+                                    <li><a href="#">글로스</a></li>
+                                    <li><a href="#">립펜슬</a></li>
+                                    <li><a href="#">립케어</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">페이스</a>
+                                <ul class="depth2">
+                                    <li><a href="#">베이스·프라이머</a></li>
+                                    <li><a href="#">쿠션·파운데이션</a></li>
+                                    <li><a href="#">BB·컨실러</a></li>
+                                    <li><a href="#">팩트·파우더</a></li>
+                                    <li><a href="#">컨투어링·하이라이터</a></li>
+                                    <li><a href="#">블러셔</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">네일</a>
+                                <ul class="depth2">
+                                    <li><a href="#">네일컬러</a></li>
+                                    <li><a href="#">네일케어</a></li>
+                                    <li><a href="#">네일리무버</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">스킨케어</a>
+                                <ul class="depth2">
+                                    <li><a href="#">토너·패드</a></li>
+                                    <li><a href="#">에멀전</a></li>
+                                    <li><a href="#">에센스·세럼</a></li>
+                                    <li><a href="#">크림·밤</a></li>
+                                    <li><a href="#">미스트</a></li>
+                                    <li><a href="#">선케어</a></li>
+                                    <li><a href="#">세트</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">마스크·팩</a>
+                                <ul class="depth2">
+                                    <li><a href="#">시트마스크</a></li>
+                                    <li><a href="#">페이셜팩</a></li>
+                                    <li><a href="#">패치</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">클렌저</a>
+                                <ul class="depth2">
+                                    <li><a href="#">페이셜 클렌징</a></li>
+                                    <li><a href="#">메이크업 클렌징</a></li>
+                                    <li><a href="#">필링·스크럽</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">바디</a>
+                                <ul class="depth2">
+                                    <li><a href="#">워시</a></li>
+                                    <li><a href="#">보습</a></li>
+                                    <li><a href="#">핸드·풋</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">헤어</a>
+                                <ul class="depth2">
+                                    <li><a href="#">컬러·스타일링</a></li>
+                                    <li><a href="#">헤어케어</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">툴</a>
+                                <ul class="depth2">
+                                    <li><a href="#">브러쉬</a></li>
+                                    <li><a href="#">퍼프</a></li>
+                                    <li><a href="#">화장솜·면봉</a></li>
+                                    <li><a href="#">속눈썹·브라우</a></li>
+                                    <li><a href="#">공용기</a></li>
+                                    <li><a href="#">헤어도구</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            </li>
+                        </ul> <!-- e:sub_center -->
+                    </div>
+                </li>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">MAKEUP LOOK</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">FOUNDATION FACTORY</a></li>
+            </ul>
+        </nav>
+        <div class="lnb">
+            <a href="#" class="search"><img src="./images/search_icon.svg" alt="검색"></a>
+            <a href="#" class="all_menu"><img src="./images/allmenu_icon.svg" alt="전체메뉴"></a>
+        </div>
+    </header> <!-- e:header -->
+
+    <main>
+        <div class="item_info_main">
+            <div class="big_view"><img src="./images/item_main_1.jpg" alt=""></div>
+            <div class="swiper small_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/item_main_1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/item_main_2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/item_main_3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/item_main_4.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="item_info_g">
+                <div class="category_link">
+                    <a href="./index.html">Shop</a>
+                    <a href="./index.html">카테고리</a>
+                    <a href="./product_face.html">페이스</a>
+                </div>
+                <div class="item_title">
+                    <p>NEW</p>
+                    <h2>하트팝 블러셔 #핑크샤이 4g</h2>
+                    <p>로맨틱 핑크코어 메이크업 핑크 샤이 컬렉션</p>
+                    <div class="tag_g">
+                        <div class="tag_left">
+                            <a href="#">#자연광블러셔</a>
+                            <a href="#">#핑크샤이</a>
+                        </div>
+                        <div class="tag_right">
+                            <a href="#"><img src="./images/icon_favorite.svg" alt="찜"></a>
+                            <a href="#"><img src="./images/icon_share.svg" alt="공유하기"></a>
+                        </div>
+                    </div> <!-- e:tag_g -->
+                </div> <!-- e:item_title -->
+                <p class="price"><strong>13,000</strong><span>원</span></p>
+                <div class="item_option">
+                    <p>option</p>
+                    <div class="color_g">
+                        <a href="#"><img src="./images/item_otion_color1.png" alt="핑카부"></a>
+                        <a href="#"><img src="./images/item_otion_color2.png" alt="블루밍 핑크"></a>
+                        <a href="#"><img src="./images/item_otion_color3.png" alt="찡긋 핑크"></a>
+                    </div>
+                </div>
+                <div class="purchase_btn_g">
+                    <button type="button" id="purchase_btn"><span>구매하러 가기</span></button>
+                    <p>- 구매 하러 가기 버튼을 누르면 네이버 공식 브랜드스토어로 이동합니다.</p>
+                </div>
+            </div> <!-- e:item_info_g -->
+        </div> <!-- e:item_info_main -->
+        <ul class="page_tab">
+            <li><a href="#" class="detail_page">상세페이지</a></li>
+            <li><a href="#" class="review_page"><span>리뷰</span><span class="review_num">(9,999건)</span></a></li>
+            <li><a href="#" class="product_info_page">전성분·상품 정보</a></li>
+            <li><a href="#" class="suggest_page">추천 제품</a></li>
+        </ul>
+        <div class="detail_page_g">
+            <img src="./images/item_detail1.jpg" alt="">
+            <img src="./images/item_detail2.jpg" alt="">
+            <img src="./images/item_detail3.jpg" alt="">
+            <img src="./images/item_detail4.jpg" alt="">
+            <img src="./images/item_detail5.jpg" alt="">
+            <img src="./images/item_detail5_gif.gif" alt="">
+            <img src="./images/item_detail6.jpg" alt="">
+            <img src="./images/item_detail7.jpg" alt="">
+        </div>
+        <div class="review_page_g">
+        </div>
+        <div class="product_info_page_g">
+            <a href="#">
+                <h3>전성분/상품정보제공고시</h3>
+                <p>
+                    <span>본 상품정보는 공정거래위원회의 「전자상거래 등에서의 상품정보제공 고시」에 따라 작성되었습니다.</span>
+                    <img src="./images/info_view_moer.svg" alt="정보 더 보기">
+                </p>
+            </a>
+            <div class="product_info_cont"></div>
+        </div>
+        <div class="suggest_page_g">
+            <h2>YOU MIGHT ALSO LIKE</h2>
+            <div class="suggest_item_g">
+                <a href="#">
+                    <p><img src="./images/suggest_item1.jpg" alt=""></p>
+                    <h3>어웨어 클린 립 앤 아이 리무버 250ml</h3>
+                    <p class="suggest_price"><strong>14,000</strong>원</p>
+                </a>
+                <a href="#">
+                    <p><img src="./images/suggest_item1.jpg" alt=""></p>
+                    <h3>어웨어 클린 립 앤 아이 리무버 250ml</h3>
+                    <p class="suggest_price"><strong>14,000</strong>원</p>
+                </a>
+                <a href="#">
+                    <p><img src="./images/suggest_item1.jpg" alt=""></p>
+                    <h3>어웨어 클린 립 앤 아이 리무버 250ml</h3>
+                    <p class="suggest_price"><strong>14,000</strong>원</p>
+                </a>
+                <a href="#">
+                    <p><img src="./images/suggest_item1.jpg" alt=""></p>
+                    <h3>어웨어 클린 립 앤 아이 리무버 250ml</h3>
+                    <p class="suggest_price"><strong>14,000</strong>원</p>
+                </a>
+                <a href="#">
+                    <p><img src="./images/suggest_item1.jpg" alt=""></p>
+                    <h3>어웨어 클린 립 앤 아이 리무버 250ml</h3>
+                    <p class="suggest_price"><strong>14,000</strong>원</p>
+                </a>
+            </div> <!-- e:suggest_item_g -->
+        </div> <!-- e:suggest_page_g -->
+    </main> <!-- e:main -->
+    <footer>
+        <div class="ft_top">
+            <div class="notice">
+                <p>공지</p>
+                <a href="#">[공지] 소비자 가격 인상 안내 (2024년 7월 1일 적용)</a>
+            </div>
+            <a href="#">더보기<img src="./images/ft_view_more.svg" alt=""></a>
+            <div class="other_site">
+                <a href="#"><em>Family Site</em><img src="./images/move_other_site.svg" alt=""></a>
+                <a href="#"><em>Site MAP</em><img src="./images/move_other_site.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="ft_mid">
+            <ul class="fnb">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">전자공고</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보처리기기 운영·관리 방침</a></li>
+            </ul>
+            <div class="contact">
+                <div class="contact_top">
+                    <section class="grid_c call">
+                        <h3 class="grid-itm itm1"><img src="./images/ft_call_icon.png" alt="문의 연락처"></h3>
+                        <p class="grid-itm itm2">제품 문의 : <em>080-022-2285</em></p>
+                        <p class="grid-itm itm2">고객 문의 : <em>1544-5418</em></p>
+                    </section>
+                    <section class="grid_c email">
+                        <h3 class="grid-itm itm1"><img src="./images/ft_mail_icon.png" alt="문의 이메일"></h3>
+                        <p class="grid-itm itm2">대표 이메일 : <a href="#">etude_master@etude.co.kr</a>
+                    </section>
+                </div>
+                <section class="grid_c time">
+                    <h3 class="grid-itm itm1"><img src="./images/ft_time_icon.png" alt="운영시간"></h3>
+                    <p class="grid-itm itm2">운영 시간 : <em>13:00~ 17:00 (주말 및 공휴일 휴무)</em></p>
+                    <p class="grid-itm itm3">점심 시간 : <em>12:00~ 13:00 </em></p>
+                </section>
+            </div>
+        </div>
+        <section class="ft_info">
+            <h2 id="ft_logo"><a href="#"><img src="./images/ft_logo.png" alt="ETUDE"></a></h2>
+            <ul>
+                <li>(주)에뛰드 대표이사 : 이수연</li>
+                <li>개인정보보호 책임자 : 이수연</li>
+                <li>사업자등록번호 : 135-81-05033</li>
+                <li>
+                    <address>주소 : 서울특별시 용산구 한강대로 100 (한강로 2가)</address>
+                </li>
+            </ul>
+        </section>
+        <p id="copyright">&copy;ETUDE CORPORATION. ALL RIGHTS RESERVED.</p>
+    </footer>
+</body>
+
+</html>

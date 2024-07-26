@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페이스 - 에뛰드</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/product_face.css">
+    <link rel="stylesheet" href="./styles/header_design.css">
+    <script src="./script/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header id="gnb_area">
+        <h1 id="logo"><a href="#"><img src="./images/logo.png" alt="ETUDE"></a></h1>
+        <nav>
+            <div class="sub_bg"></div>
+            <ul class="gnb">
+                <li>
+                    <a href="#">PRODUCT</a>
+                    <div class="sub_menu">
+                        <ul class="sub_left">
+                            <li><a href="#">전체보기</a></li>
+                            <li><a href="#"><strong>신제품</strong></a></li>
+                        </ul>
+                        <ul class="sub_center">
+                            <li>
+                                <a href="#" class="depth1">아이</a>
+                                <ul class="depth2">
+                                    <li><a href="#">싱글섀도우</a></li>
+                                    <li><a href="#">아이팔레트</a></li>
+                                    <li><a href="#">마스카라</a></li>
+                                    <li><a href="#">아이라이너</a></li>
+                                    <li><a href="#">아이브라우</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">립</a>
+                                <ul class="depth2">
+                                    <li><a href="#">립스틱</a></li>
+                                    <li><a href="#">틴트</a></li>
+                                    <li><a href="#">글로스</a></li>
+                                    <li><a href="#">립펜슬</a></li>
+                                    <li><a href="#">립케어</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">페이스</a>
+                                <ul class="depth2">
+                                    <li><a href="#">베이스·프라이머</a></li>
+                                    <li><a href="#">쿠션·파운데이션</a></li>
+                                    <li><a href="#">BB·컨실러</a></li>
+                                    <li><a href="#">팩트·파우더</a></li>
+                                    <li><a href="#">컨투어링·하이라이터</a></li>
+                                    <li><a href="#">블러셔</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">네일</a>
+                                <ul class="depth2">
+                                    <li><a href="#">네일컬러</a></li>
+                                    <li><a href="#">네일케어</a></li>
+                                    <li><a href="#">네일리무버</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">스킨케어</a>
+                                <ul class="depth2">
+                                    <li><a href="#">토너·패드</a></li>
+                                    <li><a href="#">에멀전</a></li>
+                                    <li><a href="#">에센스·세럼</a></li>
+                                    <li><a href="#">크림·밤</a></li>
+                                    <li><a href="#">미스트</a></li>
+                                    <li><a href="#">선케어</a></li>
+                                    <li><a href="#">세트</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">마스크·팩</a>
+                                <ul class="depth2">
+                                    <li><a href="#">시트마스크</a></li>
+                                    <li><a href="#">페이셜팩</a></li>
+                                    <li><a href="#">패치</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">클렌저</a>
+                                <ul class="depth2">
+                                    <li><a href="#">페이셜 클렌징</a></li>
+                                    <li><a href="#">메이크업 클렌징</a></li>
+                                    <li><a href="#">필링·스크럽</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">바디</a>
+                                <ul class="depth2">
+                                    <li><a href="#">워시</a></li>
+                                    <li><a href="#">보습</a></li>
+                                    <li><a href="#">핸드·풋</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">헤어</a>
+                                <ul class="depth2">
+                                    <li><a href="#">컬러·스타일링</a></li>
+                                    <li><a href="#">헤어케어</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="depth1">툴</a>
+                                <ul class="depth2">
+                                    <li><a href="#">브러쉬</a></li>
+                                    <li><a href="#">퍼프</a></li>
+                                    <li><a href="#">화장솜·면봉</a></li>
+                                    <li><a href="#">속눈썹·브라우</a></li>
+                                    <li><a href="#">공용기</a></li>
+                                    <li><a href="#">헤어도구</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            </li>
+                        </ul> <!-- e:sub_center -->
+                    </div>
+                </li>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">MAKEUP LOOK</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">FOUNDATION FACTORY</a></li>
+            </ul>
+        </nav>
+        <div class="lnb">
+            <a href="#" class="search"><img src="./images/search_icon.svg" alt="검색"></a>
+            <a href="#" class="all_menu"><img src="./images/allmenu_icon.svg" alt="전체메뉴"></a>
+        </div>
+    </header> <!-- e:header -->
+    <main>
+        <div class="main_banner">
+            <div class="banner_area">
+                <section class="banner_contents">
+                    <h2>조효진 개발 쉐딩 스틱</h2>
+                    <p>한-끗 차이로 달라지는 부위별 음영 재창조 메이커</p>
+                    <a href="#"><span>페이스</span><img src="./images/drop_arrow.svg" alt="더 보기"></a>
+                </section>
+            </div>
+        </div> <!-- e:main_banner -->
+        <div class="product_area">
+            <section class="category_title">
+                <h2>페이스</h2>
+                <div class="category_menu">
+                    <a href="#">전체</a>
+                    <a href="#">베이스·프라이머</a>
+                    <a href="#">쿠션·파운데이션</a>
+                    <a href="#">BB·컨실러</a>
+                    <a href="#">팩트·파우더</a>
+                    <a href="#">컨투어링·하이라이터</a>
+                    <a href="#">블러셔</a>
+                </div>
+                <!-- 검색창 -->
+                <form action="#" method="get" id="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색창</legend>
+                        <input type="search" name="search_txt" placeholder="립케어 강자! 진저 슈가">
+                    </fieldset>
+                </form>
+            </section>
+            <div class="filter">
+                <p>총 <span>64</span> 개</p>
+                <div class="filter_menu">
+                    <a href="#" class="view_array"><span>신상품순</span><img src="./images/menu_array.svg" alt="더보기"></a>
+                    <a href="#" class="view_filter"><span>필터</span><img src="./images/menu_filter.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="product_g">
+                <ul class="item_g">
+                    <li class="itm">
+                        <a href="./item_view.html"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="./item_view.html"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="./item_view.html"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                    <li class="itm">
+                        <a href="#"><img src="./images/5_itm3.jpg" alt=""></a>
+                        <div class="item_info">
+                            <p>#멀티섀도우 #애교살라이너 #애교발굴템</p>
+                            <p>블링블링 아이돌스틱 0.75g</p>
+                            <div class="color_g">
+                                <a href="#"><img src="./images/5_color1.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color2.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color3.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color4.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color5.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color6.png" alt=""></a>
+                                <a href="#"><img src="./images/5_color7.png" alt=""></a>
+                            </div>
+                            <p class="price"><strong>11,000</strong><span>원</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <nav class="page_nav">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><img src="./images/next_page.svg" alt="다음 페이지로"></a>
+            </nav>
+        </div> <!-- e:product_area -->
+    </main>
+</body>
+
+</html>
